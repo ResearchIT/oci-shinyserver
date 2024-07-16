@@ -1,8 +1,8 @@
-FROM quay.io/fedora/s2i-base:39
+FROM quay.io/fedora/s2i-base:40
 LABEL maintainer="ISU Research IT <researchit@iastate.edu>"
 
 ENV \
-    SHINYSRVPKG=shiny-server-1.5.21.1012-x86_64.rpm \
+    SHINYSRVPKG=shiny-server-1.5.22.1017-x86_64.rpm \
     STI_SCRIPTS_URL=image:///usr/libexec/s2i \
     STI_SCRIPTS_PATH=/usr/libexec/s2i \
     APP_ROOT=/opt/app-root \
