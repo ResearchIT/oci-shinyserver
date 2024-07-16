@@ -43,7 +43,7 @@ installdeps <- function(file="/opt/app-root/src/r-requirements.txt", lib="/opt/a
       } else {
         require(BiocManager)
         if(length(BiocManager::available(package))>0) {
-          BiocManager::install("TissueEnrich")
+          BiocManager::install(package)
         }
       }
     }
